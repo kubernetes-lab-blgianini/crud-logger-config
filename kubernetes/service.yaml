@@ -3,9 +3,10 @@ kind: Service
 metadata:
   name: crud-logger
 spec:
-  type: NodePort
   selector:
     app: crud-logger
   ports:
   - port: 8080
     targetPort: 8080
+
+  type: NodePort
