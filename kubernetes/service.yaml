@@ -3,11 +3,9 @@ kind: Service
 metadata:
   name: crud-logger
 spec:
-  ports:
-    - name: http
-      port: 8080
-      targetPort: 8080
-      protocol: TCP
   selector:
-    app: web
-  type: LoadBalancer
+    app: crud-logger
+  ports:
+  - port: 8080
+    targetPort: 8080
+    
