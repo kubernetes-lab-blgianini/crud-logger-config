@@ -16,3 +16,6 @@ spec:
         image: imagem
         ports:
         - containerPort: 8080
+        env:
+          - name: DATABASE_URL
+            value: "postgresql://neondb_owner:npg_DyGwIg7J2oBV@ep-frosty-glade-a4hleumr-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require"
