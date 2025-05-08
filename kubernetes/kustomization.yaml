@@ -9,4 +9,4 @@ namespace: crud-logger
 images:
 - name: imagem
   newName: blgianini/crud-logger
-  newTag: 4145b5ef8ca987292e913f84dc2c58ddeff69c83
+  newTag: d310438c813bf7cabd8148d794c2842c2c0fa9a5
